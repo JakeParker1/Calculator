@@ -20,7 +20,9 @@ return 0;
 
 /* function returning the addition between 2 numbers */
 {
-  
+  Int a (int num1, num2)
+}
+
 }
 
 return 0;
