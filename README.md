@@ -18,5 +18,9 @@ print()
 return 0;
 }
 
+/* function returning the addition between 2 numbers */
+{
+  
+}
 
 return 0;
