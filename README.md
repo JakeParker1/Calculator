@@ -20,9 +20,22 @@ return 0;
 
 /* function returning the addition between 2 numbers */
 {
-  Int a (int num1, num2)
+  int a (int num1, num2)
 }
 
+/* function returning the subtraction between 2 numbers */
+{
+int b (int num1, num2)
+}
+
+/* function returning the Multiplication between 2 numbers */
+{
+  int c (int num1, num2)
+}
+
+/* function returning the Division between 2 numbers */
+{
+  int d (int num1, num2)
 }
 
 return 0;
