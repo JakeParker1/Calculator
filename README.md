@@ -1,41 +1,36 @@
 #include <stdio.h>
+#include <math.h>
 
-/*Function Declaration*/ 
-int operation(int operation1, int operation2, int operation3, int operation4);
+int add(int num1, int num2);
+int divide (int num1, int num2);
 
-int main ()
+int main (void)
 {
-/*local variable definition*/
-int a = +
-printf()
-int b = -
-printf()
-int c = *
-print ()
-int d = /
-print()
+  int a = 100;
+  int b = 7;
+  int ret;
 
-return 0;
+  ret = add(a,b);
+
+  printf("a added to b = %d\n", ret);
+   
+   ret = divide(a,b);
+
+   printf("a divide by b = %d\n", ret);
+
+      return 0;
 }
 
-/* function returning the addition between 2 numbers */
+int add (int num1, int num2)
 {
-  int a (int num1, num2)
-}
+  int result;
+  result=num1+num2;
+  return result;
+  }
 
-/* function returning the subtraction between 2 numbers */
+int divide (int num1, int num2)
 {
-int b (int num1, num2)
+  int result;
+  result=num1/num2;
+  return result;
 }
-
-/* function returning the Multiplication between 2 numbers */
-{
-  int c (int num1, num2)
-}
-
-/* function returning the Division between 2 numbers */
-{
-  int d (int num1, num2)
-}
-
-return 0;
